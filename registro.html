@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="shortcut icon" href="img/favi.png" type="image/x-icon">
+    <title>WebSite Registro</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="navbar">
+                <header>
+                    <img src="img/LOGIN.png" alt="logo">
+                </header>
+            </div>
+        </section>
+
+        <section class="caixa">
+            <form>
+                <div class="single-input">
+                    <input required type="text" name="txtemail" id="txtemail" class="input">
+                    <label for="nome">Email</label>
+                </div>
+
+                <div class="single-input">
+                    <input required type="password" name="txtsenha" id="txtsenha" class="input">
+                    <label for="senha">Senha</label>
+                </div>
+
+                <div class="single-input">
+                    <input required type="password" name="txtconfsenha" id="txtconfsenha" class="input">
+                    <label for="senha">Confirmar Senha</label>
+                </div>
+
+                <a href="index.html"><label class="registro" for="registro">Já possuí conta ?</label></a>
+
+               <div class="btn">
+                    <a href="#"class="btn-entrar" onclick="registro()">REGISTER</a>
+               </div>
+            </form>
+        </section>
+
+        <section class="bola">
+            <div id="trocar">
+                <a href="index.html">
+                    <h1 class="titulo-login">LOGIN</h1>
+                </a>
+
+                <a href="registro.html">
+                    <h1 class="titulo-sign">REGISTER</h1>
+                </a>
+            </div>            
+        </section>
+              
+
+        <script src="js/script.js"></script>
+    </main>
+</body>
+
+</html>
